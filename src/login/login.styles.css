@@ -1,0 +1,37 @@
+.login {
+  justify-content: center;
+  height: 100vh;
+  background-color: #f6f6f6;
+  width: 100vw;
+}
+
+.login__container {
+  margin-top: 100px;
+  margin-left: 30vw;
+
+  background-color: white;
+  border-radius: 20px;
+  width: 40vw;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr;
+}
+
+.login__container > img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.login__container > button {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  background-color: #41c653;
+  color: white;
+  cursor: pointer;
+  outline-width: 0;
+}
